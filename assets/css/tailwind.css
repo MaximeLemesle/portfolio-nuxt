@@ -3,8 +3,13 @@
 @tailwind utilities;
 
 @layer base {
+  * {
+    @apply border-border;
+  }
+
   body {
     font-family: "Noto Sans", sans-serif;
+    @apply bg-background text-foreground;
   }
   .font-karla {
     font-family: "Karla", sans-serif;
@@ -37,8 +42,8 @@
     --primary: 162 47% 50%; /* Green */
     --primary-foreground: 162 100% 95%;
 
-    --secondary: 258 71% 60%; /* Violet */
-    --secondary-foreground: 258 100% 95%;
+    --secondary: 290 40% 60%; /* Lighter and Toned-down Violet */
+    --secondary-foreground: 290 100% 95%;
 
     --accent: 162 47% 50%; /* Green */
     --accent-foreground: 162 100% 95%;
@@ -70,8 +75,8 @@
     --primary: 162 47% 50%; /* Green */
     --primary-foreground: 162 100% 95%;
 
-    --secondary: 258 71% 60%; /* Violet */
-    --secondary-foreground: 258 100% 95%;
+    --secondary: 290 40% 60%; /* Lighter and Toned-down Violet */
+    --secondary-foreground: 290 100% 95%;
 
     --accent: 162 47% 50%; /* Green */
     --accent-foreground: 162 100% 95%;
@@ -80,14 +85,5 @@
     --destructive-foreground: 0 0% 98%;
 
     --ring: 210 22% 83.1%;
-  }
-}
-
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
   }
 }

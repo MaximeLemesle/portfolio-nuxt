@@ -3,7 +3,7 @@
     <div class="logo text-3xl font-bold">
       <NuxtLink 
         to="/" 
-        class="text-primary dark:text-primary-foreground no-underline hover:text-primary-foreground transition-colors duration-300"
+        class="text-primary font-karla dark:text-primary-foreground no-underline hover:text-primary-foreground transition-colors duration-300"
       >
         /maxime
       </NuxtLink>
