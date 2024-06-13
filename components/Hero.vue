@@ -1,7 +1,7 @@
 <template>
-  <div class="hero flex flex-row items-center justify-start gap-52 mx-32 my-24">
+  <div class="hero flex flex-row items-center justify-start gap-52 mx-40 my-24">
     <figure>
-      <img src="@/assets/img/portrait.png" alt="Photo de Maxime Lemesle" class="h-80"/>
+      <img src="@/assets/img/portrait.png" alt="Photo de Maxime Lemesle" class="h-80 rounded"/>
     </figure>
 
     <div class="title dark:text-white text-left pr-16">
