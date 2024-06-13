@@ -19,11 +19,11 @@
 <script setup>
 import { ref, onMounted } from "vue";
 
+const emit = defineEmits(['close']);
+
 const isDarkMode = ref(false);
 const toggleCount = ref(0);
 const isDialogOpen = ref(false);
-
-const emit = defineEmits(['close']);
 
 const handleToggle = () => {
   toggleDarkMode();
