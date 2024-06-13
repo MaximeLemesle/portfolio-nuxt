@@ -1,11 +1,9 @@
-const animate = require("tailwindcss-animate")
+const animate = require("tailwindcss-animate");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ["class"],
+  darkMode: "class", // Utilise la classe 'dark' pour activer le mode sombre
   safelist: ["dark"],
-  prefix: "",
-  
   theme: {
     container: {
       center: true,
@@ -16,42 +14,42 @@ module.exports = {
     },
     extend: {
       colors: {
-        border: "hsl(var(--border))",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
+        border: "hsl(var(--border, 210, 16%, 93%))",
+        input: "hsl(var(--input, 210, 16%, 93%))",
+        ring: "hsl(var(--ring, 210, 22%, 49%))",
+        background: "hsl(var(--background, 0, 0%, 100%))",
+        foreground: "hsl(var(--foreground, 0, 0%, 0%))",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          DEFAULT: "hsl(var(--primary, 162, 47%, 50%))", // green as default
+          foreground: "hsl(var(--primary-foreground, 162, 100%, 95%))",
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
+          DEFAULT: "hsl(var(--secondary, 258, 71%, 60%))", // violet as secondary
+          foreground: "hsl(var(--secondary-foreground, 258, 100%, 95%))",
         },
         destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
+          DEFAULT: "hsl(var(--destructive, 348, 86%, 61%))",
+          foreground: "hsl(var(--destructive-foreground, 348, 100%, 95%))",
         },
         muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
+          DEFAULT: "hsl(var(--muted, 210, 16%, 93%))",
+          foreground: "hsl(var(--muted-foreground, 210, 22%, 49%))",
         },
         accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
+          DEFAULT: "hsl(var(--accent, 162, 47%, 50%))", // green as default
+          foreground: "hsl(var(--accent-foreground, 162, 100%, 95%))",
         },
         popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
+          DEFAULT: "hsl(var(--popover, 0, 0%, 100%))",
+          foreground: "hsl(var(--popover-foreground, 0, 0%, 0%))",
         },
         card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
+          DEFAULT: "hsl(var(--card, 0, 0%, 100%))",
+          foreground: "hsl(var(--card-foreground, 0, 0%, 0%))",
         },
       },
       borderRadius: {
-      	xl: "calc(var(--radius) + 4px)",
+        xl: "calc(var(--radius) + 4px)",
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
@@ -67,10 +65,10 @@ module.exports = {
         },
         "collapsible-down": {
           from: { height: 0 },
-          to: { height: 'var(--radix-collapsible-content-height)' },
+          to: { height: "var(--radix-collapsible-content-height)" },
         },
         "collapsible-up": {
-          from: { height: 'var(--radix-collapsible-content-height)' },
+          from: { height: "var(--radix-collapsible-content-height)" },
           to: { height: 0 },
         },
       },
@@ -83,4 +81,4 @@ module.exports = {
     },
   },
   plugins: [animate],
-}
+};
