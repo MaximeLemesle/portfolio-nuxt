@@ -1,12 +1,14 @@
-import Project from '~/server/models/project.model'
+import Project from '~/server/models/project.model';
 
 export default defineEventHandler(async () => {
   try {
-    const project = await Project.find({});
+    const projects = await Project.find({});
     return {
-      project,
+      projects,
     };
   } catch (error) {
-    console.log("Erreur lors de la requete des projects :", error); 
+    return {
+      error: 'Erreur lors de la requête des projets',
+    };
   }
 });
