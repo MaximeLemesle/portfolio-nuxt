@@ -25,8 +25,4 @@ export default defineNuxtConfig({
     },
   },
   plugins: ['~/plugins/dark-mode.client.js'],
-
-  nitro: {
-    plugins: ["~/server/index.ts"],
-  },
 });

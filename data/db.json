@@ -1,0 +1,134 @@
+{
+  "projects": [
+    {
+      "project_id": "1",
+      "project_name": "MDS E-Sport",
+      "project_presentation": "Création du site fictif MDS E-sport qui présente les jeux et compétitions au sein de l’école MDS Angers.",
+      "project_inspiration": "Dans ce projet, j’ai réalisé la maquette du site. L’objectif est de mettre en avant les jeux présents dans le campus et d’inciter les nouveaux étudiants a rejoindre MDS E-sport.",
+      "project_link": "https://www.figma.com/file/keXj0Em1nee7NkVJGg3JUP/Maquette-MDS-eSport?type=design&node-id=0%3A1&t=SkDSPyzHV1E7eYVq-1",
+      "project_date": "2021",
+      "images": [
+        {
+          "image_name": "mds_esport_bg ",
+          "image_url": "mds_esport_bg.png"
+        },
+        {
+          "image_name": "mds_esport_mockup_1 ",
+          "image_url": "mds_esport_mockup_1.png"
+        },
+        {
+          "image_name": "mds_esport_mockup_2 ",
+          "image_url": "mds_esport_mockup_2.png"
+        },
+        {
+          "image_name": "mds_esport_mockup_3 ",
+          "image_url": "mds_esport_mockup_3.png"
+        }
+      ],
+      "technos": [
+        {
+          "techno_name": "Figma",
+          "techno_img": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+        }
+      ],
+      "skills": [
+        {
+          "skill_name": "Web design"
+        }
+      ]
+    },
+    {
+      "project_id": "2",
+      "project_name": "Les Mots du Bout du Monde",
+      "project_presentation": "Création du site Les Mots du Bout du Monde qui est une association qui vient en aide aux personnes analphabètes.",
+      "project_inspiration": "Dans ce projet, j’ai réalisé la maquette et l’identité visuelle de la marque. L’objectif est de mettre en avant l’aspect éducatif en réutilisant des formes géométriques, des couleurs, ainsi que des lettres.",
+      "project_link": "https://www.figma.com/file/1m77hUjiPnmEUj3teWZTWt/Les-mots-du-bouts-du-monde?type=design&node-id=0%3A1&t=XNLUBjnZxGMt7unw-1",
+      "project_date": "2021",
+      "images": [
+        {
+          "image_name": "lmdbdm_bg",
+          "image_url": "lmdbdm_bg.png"
+        },
+        {
+          "image_name": "lmdbdm_mockup_1",
+          "image_url": "lmdbdm_mockup_1.png"
+        },
+        {
+          "image_name": "lmdbdm_mockup_2",
+          "image_url": "lmdbdm_mockup_2.png"
+        },
+        {
+          "image_name": "lmdbdm_mockup_3",
+          "image_url": "lmdbdm_mockup_3.png"
+        }
+      ],
+      "technos": [
+        {
+          "techno_name": "Figma",
+          "techno_img": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+        }
+      ],
+      "skills": [
+        {
+          "skill_name": "Web design"
+        }
+      ]
+    },
+    {
+      "project_id": "3",
+      "project_name": "NFTRA",
+      "project_presentation": "Création du site fictif NFTRA, il s’agit du projet fil rouge de ma 1ère année d’étude.",
+      "project_inspiration": "Lors de ce projet l’idée était de réaliser un site dans un style futuriste et moderne pour mettre en avant les NFTs.",
+      "project_link": "https://www.figma.com/file/Nchw1wqtZpqbd4Lxi3jkXs/Nftra?type=design&node-id=0%3A1&t=i4nUlht5oZn83XeG-1",
+      "project_date": "2022",
+      "images": [
+        {
+          "image_name": "nftra_bg ",
+          "image_url": "nftra_bg.png"
+        },
+        {
+          "image_name": "nftra_mockup_1 ",
+          "image_url": "nftra_mockup_1.png"
+        },
+        {
+          "image_name": "nftra_mockup_2 ",
+          "image_url": "nftra_mockup_2.png"
+        },
+        {
+          "image_name": "nftra_mockup_3 ",
+          "image_url": "nftra_mockup_3.png"
+        }
+      ],
+      "technos": [
+        {
+          "techno_name": "HTML5",
+          "techno_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
+        },
+        {
+          "techno_name": "CSS3",
+          "techno_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/726px-CSS3_logo_and_wordmark.svg.png"
+        },
+        {
+          "techno_name": "JavaScript",
+          "techno_img": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+        },
+        {
+          "techno_name": "PHP",
+          "techno_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1422px-PHP-logo.svg.png"
+        },
+        {
+          "techno_name": "Figma",
+          "techno_img": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+        }
+      ],
+      "skills": [
+        {
+          "skill_name": "Web design"
+        },
+        {
+          "skill_name": "Front end"
+        }
+      ]
+    }
+  ]
+}
